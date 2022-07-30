@@ -18,4 +18,4 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID,
 sp.transfer_playback(device_id=DEVICE_ID, force_play=False)
 
 # Play the spotify track at URI with ID 45vW6Apg3QwawKzBi03rgD (you can swap this for a diff song ID below)
-sp.start_playback(device_id=DEVICE_ID, uris=['spotify:track:45vW6Apg3QwawKzBi03rgD'])
+sp.start_playback(device_id=DEVICE_ID, uris=['spotify:album:3pPyHBRk2RvmNn4Cg1Asv6'])
